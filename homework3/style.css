@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #8d8ba7;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px #e5dada;
+    padding: 20px;
+}
+
+.advertising {
+    position: absolute;
+    top: 80px;
+    background-color: #000;
+    opacity: 30%;
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+
+}
+
+.block a:hover {
+    opacity: 30%;
+}
+
+
+.absolute-constainer {
+    background-color: orange;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
