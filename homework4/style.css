@@ -2,13 +2,21 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background: #c7b39b url(https://img.freepik.com/free-photo/old-cement-wall-texture_1149-1280.jpg?w=740&t=st=1676085929~exp=1676086529~hmac=adc26044661588abb7cd29c80dea6b3a7a2feed7ed860e5a5f6e38d2a0350ae4);
+}
+
+hr {
+    border: 1px solid #a1972b;
+
 }
 
 .title {
     text-align: center;
     text-transform: uppercase;
-    background-color: antiquewhite;
     margin-top: 30px;
+    color: #a78248;
+    font-size: 32px;
+    font-weight: bold;
     
 }
 .container {
@@ -16,36 +24,67 @@ body {
     margin: 50px auto;
     display: flex;
     flex-direction: row;
+    padding: 14px;
+}
+
+.row {
+    padding: 15px;
 }
 
 .card {
-    width: 33.3333%;
-    background: #fff;
+    background: #dfb181;
     border: 2px solid #ccc;
     margin-bottom: 50px;
     border-radius: 10px;
+    box-shadow: 10px 10px 5px #282525;
+
 
 }
 
 .card-img {
-    width: 30%;
-    background: #fff;
-    border: 2px solid #ccc;
     margin-bottom: 50px;
-    border-radius: 10px;
 }
 
-img {
-    border-radius: 20px;
+.card-img img {
+    border-radius: 10px;
     width: 100%;
-    height: 15rem;
     object-fit: cover;
+    height: 15rem;
 }
 
 .card-header {
-
+    text-align: center;
 }
 
 .card-description {
+    padding: 15px;
+    text-align: justify;
+}
+
+.btn {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.btn a {
+    border: 1px solid rgb(141, 84, 19);
+    border-radius: 10%;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+    background-color: black;
 
 }
+
+@media screen and (max-width: 1440px) {
+    .container {
+      width: 960px;
+    }
+}
+  
+@media screen and (max-width: 450px) {
+    .container {
+      width: 420px;
+    }
+}
+  
